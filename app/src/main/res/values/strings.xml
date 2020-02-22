@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Flashcard</string>
+    <string name="questionOne">What is Niara\'s favorite cookie?</string>
+    <string name="answerOne">Oreos</string>
+    <string name="choiceOneText">Oatmeal Raisin</string>
+    <string name="choiceTwoText">Oreos</string>
+    <string name="choiceThreeText">Chocolate Chip</string>
+</resources>
