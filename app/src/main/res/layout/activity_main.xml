@@ -50,53 +50,16 @@
         android:textSize="40sp"
         android:visibility="invisible" />
 
-    <TextView
-        android:id="@+id/choiceOne"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="250dp"
-        android:background="@color/lightBlue"
-        android:text="@string/choiceOneText"
-        android:textAlignment="center"
-        android:textSize="36sp" />
-
-    <TextView
-        android:id="@+id/choiceTwo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="150dp"
-        android:background="@color/lightBlue"
-        android:text="@string/choiceTwoText"
-        android:textAlignment="center"
-
-        android:textSize="36sp" />
-
-    <TextView
-        android:id="@+id/choiceThree"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        android:background="@color/lightBlue"
-        android:text="@string/choiceThreeText"
-        android:textAlignment="center"
-        android:textSize="36sp" />
-
 
     <ImageView
-        android:id="@+id/toggle_choices_visibility"
+        android:id="@+id/new_card"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="13dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/icon" />
+        android:src="@drawable/ic_add" />
 
 
 </RelativeLayout>
